@@ -445,16 +445,18 @@ width: 759px;
         padding: 0 0 0 900px;
     }
     @media screen and (max-width:480px) {
-
+      body {
+        width: 460px;
+      }
         header {
-            background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../imge/resources/Banner\ Image.png");
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 312px;
-            border-radius: 16px;
-            width: 530px;
-            margin: 0 auto;
-            background-size: 600px;
+          background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../imge/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 214px;
+    border-radius: 16px;
+    width: 455px;
+    margin: 0 0 0 0;
+    background-size: 431px;       
         }
             .h4 {
                 font-size: 24px;
@@ -463,11 +465,10 @@ width: 759px;
                 padding: 42px 0 0 0;
                 height: 18px;
               }
-              .h1 {
-            }
+              
             .h1 {
               font-size: 40px;
-              padding: 0 0 0 60px;
+              padding: 0 0 0 12px;
               width: 441px;
               color: #FFF;
               text-align: center;
@@ -487,37 +488,37 @@ width: 759px;
                 background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url("../imge/resources/Vectorrr.png");
                 background-repeat: no-repeat;
                 background-position: center;
-                height: 249px;
-                width: 532px;
-                margin: 0 auto;
-                background-size: 539px;
+                height: 196px;
+                width: 447px;
+                margin: 0 0 0 0;
+                background-size: 425px;
               }
               .bonas_3 {
-                width: 109%;
+                width: 93%;
                 padding: 0px 0 0 95px;
                 position: relative;
-                right: 332px;
+                right: 375px;
                 bottom: 63px;
               }
               
                 .bonas_1 > h1 {
-                  line-height: 41px;
+                  line-height: 31px;
                   padding-right: 319px;
                   letter-spacing: 4px;
-                  font-size: 24px;
+                  font-size: 22px;
                   position: relative;
-                  bottom: 156px;
+                  bottom: 159px;
                   width: 230px;
                 }
                 .my_you {
-                    color: rgba(255, 255, 255, 0.80);
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 30px;
-                    width: 332px;
-                    position: relative;
-                    bottom: 175px;
-                    right: 42px;
+                  color: rgba(255, 255, 255, 0.80);
+                  font-size: 16px;
+                  font-weight: 322;
+                  line-height: 23px;
+                  width: 324px;
+                  position: relative;
+                  bottom: 175px;
+                  right: 42px;
                   }
                   .button_3 {
                     color: #FFF;
@@ -531,7 +532,16 @@ width: 759px;
                     width: 73px;
                   }
                   .Place{
-                    width: 522px;
+                    width: 428px;
+                    height: 433px;
+                  }
+                  .Place_1 {
+                    text-align: center;
+                    padding: 12px 0 0 0;
+                    font-size: 16px;
+                    line-height: 53px;
+                    font-weight: 600;
+                    color: #070211;
                   }
                   .cd {
                     background-image: url("../imge/resources/Ellipse\ 1.png");
